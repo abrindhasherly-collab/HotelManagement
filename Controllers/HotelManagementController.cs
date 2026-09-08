@@ -244,7 +244,7 @@ namespace HotelManagement.Controllers
             }
         }
 
-        // DELETE HOTEL
+        // DELETE HOTEL management system
         
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteHotel(int id)
